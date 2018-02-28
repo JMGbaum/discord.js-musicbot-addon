@@ -116,7 +116,7 @@ module.exports = function(client, options) {
       this.advancedMode = (options && options.advancedMode) || {};
       this.botAdmins = [];
       this.djRole = (options && options.djRole) || null;
-      this.embedColor = (options && options.embedColor) || 
+      this.embedColor = (options && options.embedColor) || `0x27e33d`
     }
 
     logger(cmd, msg, text) {
