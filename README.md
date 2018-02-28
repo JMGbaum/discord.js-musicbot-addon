@@ -102,6 +102,7 @@ _Note: All boolean options default false._
 | clearInvoker | Boolean | Whether to delete command messages. |  
 | messageHelp | Boolean | Whether to message the user on help command usage. If it can't, it will send it in the channel like normal. |
 | botAdmins | Object/Array | An array of Discord user ID's to be admins as the bot. They will ignore permissions for the bot, including the set command. |
+| embedColor | String | The hex code or RGB value of the color of your embeds. Defaults to 0x27e33d. |
 
 ## Other Options.  
 | Option | Type | Description |  
